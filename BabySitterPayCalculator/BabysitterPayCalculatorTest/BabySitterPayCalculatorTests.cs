@@ -50,5 +50,29 @@ namespace BabysitterPayCalculatorTest
         {
             Assert.AreEqual(120, Calculator.Calculate(5, 10, 9));
         }
+
+        [TestMethod]
+        public void StartTimeToPastMidnightTenHours7PMBedtime()
+        {
+            Assert.AreEqual(100, Calculator.Calculate(6, 9, 7));
+        }
+
+        [TestMethod]
+        public void StartAfterBedTimeEndBeforeMidnight()
+        {
+            Assert.AreEqual(40, Calculator.Calculate(7, 5, 7));
+        }
+
+        [TestMethod]
+        public void StartAfterBedTimeEndAfterMidnight()
+        {
+            Assert.AreEqual(56, Calculator.Calculate(7, 6, 7));
+        }
+
+        [TestMethod]
+        public void StartAfterMidnight()
+        {
+            Assert.AreEqual(32, Calculator.Calculate(12, 2, 7));
+        }
     }
 }
