@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysitterPayCalculator", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysitterPayCalculatorTest", "BabysitterPayCalculatorTest\BabysitterPayCalculatorTest.csproj", "{50316E82-44E6-4B0A-91E2-B8FCA3FA5479}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BabysitterPayCalculatorWeb", "BabysitterPayCalculatorWeb\BabysitterPayCalculatorWeb.csproj", "{1B4BA9A6-CE92-4160-9089-4C1916BB671A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{50316E82-44E6-4B0A-91E2-B8FCA3FA5479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50316E82-44E6-4B0A-91E2-B8FCA3FA5479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50316E82-44E6-4B0A-91E2-B8FCA3FA5479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4BA9A6-CE92-4160-9089-4C1916BB671A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4BA9A6-CE92-4160-9089-4C1916BB671A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4BA9A6-CE92-4160-9089-4C1916BB671A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4BA9A6-CE92-4160-9089-4C1916BB671A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
