@@ -25,22 +25,32 @@ namespace BabysitterPayCalculator
             MidnightToEndRate = midnightToEndRate;
         }
 
-        public int Calculate(int startTime, int endTime, int bedTime)
+        public int Calculate(int startHour, int hours, int bedTime)
         {
-            int pay = 0;
-            if(endTime > bedTime)
+            List<int> payHours = new List<int>();
+            for (int i = 0; i < hours; i++)
             {
-                pay += (endTime - bedTime) * BedtimeToMidnightRate;
-                pay += (bedTime - startTime) * StartToBedtimeRate;
-            }
-            else
-            {
-                pay += (endTime - startTime) * StartToBedtimeRate;
+                payHours.Add(GetPayForHour(startHour + i, bedTime));
             }
 
-            
+            return payHours.Sum();
+        }
 
-            return pay;
+        private int GetPayForHour(int hour, int bedTime)
+        {
+            int rate = StartToBedtimeRate;
+
+            if (hour >= Midnight)
+            {
+                rate = MidnightToEndRate;
+            }
+
+            if (hour >= bedTime && hour < Midnight)
+            {
+                rate = BedtimeToMidnightRate;
+            }
+
+            return rate;
         }
     }
 }

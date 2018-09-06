@@ -18,31 +18,37 @@ namespace BabysitterPayCalculatorTest
         [TestMethod]
         public void StartTimeToBedTimeOneHour()
         {
-            Assert.AreEqual(12, Calculator.Calculate(17, 18, 21));
+            Assert.AreEqual(12, Calculator.Calculate(17, 1, 21));
         }
 
         [TestMethod]
         public void StartTimeToBedTimeTwoHours()
         {
-            Assert.AreEqual(24, Calculator.Calculate(17, 19, 21));
+            Assert.AreEqual(24, Calculator.Calculate(17, 2, 21));
         }
 
         [TestMethod]
         public void StartTimeToBedTimeThreeHours()
         {
-            Assert.AreEqual(36, Calculator.Calculate(17, 20, 21));
+            Assert.AreEqual(36, Calculator.Calculate(17, 3, 21));
         }
 
         [TestMethod]
         public void StartTimeToPastBedTimeFiveHours()
         {
-            Assert.AreEqual(56, Calculator.Calculate(17, 22, 21));
+            Assert.AreEqual(56, Calculator.Calculate(17, 5, 21));
         }
 
         [TestMethod]
         public void StartTimeToPastMidnightEightHours()
         {
-            Assert.AreEqual(56, Calculator.Calculate(17, 22, 21));
+            Assert.AreEqual(88, Calculator.Calculate(17, 8, 21));
+        }
+
+        [TestMethod]
+        public void StartTimeToPastMidnightTenHours()
+        {
+            Assert.AreEqual(120, Calculator.Calculate(17, 10, 21));
         }
     }
 }
