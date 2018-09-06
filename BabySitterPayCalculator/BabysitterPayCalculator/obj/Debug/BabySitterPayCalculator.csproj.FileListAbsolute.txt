@@ -1,0 +1,10 @@
+c:\users\jason\documents\visual studio 2017\Projects\BabySitterPayCalculator\BabySitterPayCalculator\bin\Debug\BabySitterPayCalculator.dll
+c:\users\jason\documents\visual studio 2017\Projects\BabySitterPayCalculator\BabySitterPayCalculator\bin\Debug\BabySitterPayCalculator.pdb
+c:\users\jason\documents\visual studio 2017\Projects\BabySitterPayCalculator\BabySitterPayCalculator\obj\Debug\BabySitterPayCalculator.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\visual studio 2017\Projects\BabySitterPayCalculator\BabySitterPayCalculator\obj\Debug\BabySitterPayCalculator.dll
+c:\users\jason\documents\visual studio 2017\Projects\BabySitterPayCalculator\BabySitterPayCalculator\obj\Debug\BabySitterPayCalculator.pdb
+C:\Users\Jason\Documents\Babysitter-Kata\BabySitterPayCalculator\BabySitterPayCalculator\bin\Debug\BabySitterPayCalculator.dll
+C:\Users\Jason\Documents\Babysitter-Kata\BabySitterPayCalculator\BabySitterPayCalculator\bin\Debug\BabySitterPayCalculator.pdb
+C:\Users\Jason\Documents\Babysitter-Kata\BabySitterPayCalculator\BabySitterPayCalculator\obj\Debug\BabySitterPayCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Babysitter-Kata\BabySitterPayCalculator\BabySitterPayCalculator\obj\Debug\BabySitterPayCalculator.dll
+C:\Users\Jason\Documents\Babysitter-Kata\BabySitterPayCalculator\BabySitterPayCalculator\obj\Debug\BabySitterPayCalculator.pdb
