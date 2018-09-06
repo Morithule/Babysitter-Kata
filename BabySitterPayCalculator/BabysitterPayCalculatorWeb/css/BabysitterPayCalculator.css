@@ -22,7 +22,7 @@
         justify-content: center;
 
     }
-    
+        
     .flex-container > div {
         min-width: 200px;
         flex-grow: 1;
@@ -37,6 +37,7 @@
         .flex-container > #results {
             text-align: center;
             width: 100%;
+            margin-top: 20px;
             padding: 30%;
             background-image: url('../images/money.gif');
             background-repeat: no-repeat;
