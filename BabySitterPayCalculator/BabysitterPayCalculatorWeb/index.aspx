@@ -20,7 +20,7 @@
                         <asp:ListItem Text="9pm" Value="9"></asp:ListItem>
                         <asp:ListItem Text="10pm" Value="10"></asp:ListItem>
                         <asp:ListItem Text="11pm" Value="11"></asp:ListItem>
-                        <asp:ListItem Text="12pm" Value="12"></asp:ListItem>
+                        <asp:ListItem Text="12am" Value="12"></asp:ListItem>
                         <asp:ListItem Text="1am" Value="13"></asp:ListItem>
                         <asp:ListItem Text="2am" Value="14"></asp:ListItem>
                         <asp:ListItem Text="3am" Value="15"></asp:ListItem>
@@ -34,7 +34,7 @@
                         <asp:ListItem Text="9pm" Value="9"></asp:ListItem>
                         <asp:ListItem Text="10pm" Value="10"></asp:ListItem>
                         <asp:ListItem Text="11pm" Value="11"></asp:ListItem>
-                        <asp:ListItem Text="12pm" Value="12"></asp:ListItem>
+                        <asp:ListItem Text="12am" Value="12"></asp:ListItem>
                         <asp:ListItem Text="1am" Value="13"></asp:ListItem>
                         <asp:ListItem Text="2am" Value="14"></asp:ListItem>
                         <asp:ListItem Text="3am" Value="15"></asp:ListItem>
@@ -49,7 +49,7 @@
                         <asp:ListItem Text="9pm" Value="9"></asp:ListItem>
                         <asp:ListItem Text="10pm" Value="10"></asp:ListItem>
                         <asp:ListItem Text="11pm" Value="11"></asp:ListItem>
-                        <asp:ListItem Text="12pm" Value="12"></asp:ListItem>
+                        <asp:ListItem Text="12am" Value="12"></asp:ListItem>
                         <asp:ListItem Text="1am" Value="13"></asp:ListItem>
                         <asp:ListItem Text="2am" Value="14"></asp:ListItem>
                         <asp:ListItem Text="3am" Value="15"></asp:ListItem>
